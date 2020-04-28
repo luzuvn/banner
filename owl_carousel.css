@@ -301,6 +301,7 @@
 /****************/
 #luzu-banner-728x90 .customNavigation {
     display: flex;
+        margin-bottom: 3px;
 }
 #luzu-banner-728x90 .icon {
   align-items: center;
@@ -314,6 +315,7 @@
   height: 18px;
   background-size: cover;
   opacity: 1;
+  filter: invert(99%) sepia(70%) saturate(58%) hue-rotate(130deg) brightness(113%) contrast(100%);
 }
 #luzu-banner-728x90 .btn.play::before {
   content: "";
@@ -346,7 +348,7 @@
 }
 #owl-luzu .item{
   padding: 0px;
-  margin-top: 5px;
+  margin-top: 3px;
   color: #FFF;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
