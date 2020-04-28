@@ -319,16 +319,31 @@
 }
 .luzu-contact {
   margin-left: 15px;
+  display: flex;
+    align-items: center;
+}
+.luzu-contact .hotline {
+  display: flex;
+  align-items: center;
+}
+.luzu-contact>a {
+  display: flex;
+}
+.luzu-contact>a img {
+  max-height: 16px;
+  width: auto;
 }
 .luzu-contact img.logolz {
   max-height: 16px;
 }
 .luzu-contact .hotline a {
-      font-size: 16px;
+    font-size: 13px;
     color: #fff;
     font-family: Arial;
+    font-weight: bold;
     text-decoration: none;
     line-height: 1;
+    margin-left: 5px;
 }
 #luzu-banner-728x90 .btn.play::before {
   content: "";
