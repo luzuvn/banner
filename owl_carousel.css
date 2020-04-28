@@ -4,7 +4,7 @@
  */
 
 /* clearfix */
-.owl-carousel .owl-wrapper:after {
+#owl-luzu.owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
   clear: both;
@@ -13,23 +13,23 @@
   height: 0;
 }
 /* display none until init */
-.owl-carousel{
+#owl-luzu.owl-carousel{
   display: none;
   position: relative;
   width: 100%;
   -ms-touch-action: pan-y;
 }
-.owl-carousel .owl-wrapper{
+#owl-luzu.owl-carousel .owl-wrapper{
   display: none;
   position: relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
-.owl-carousel .owl-wrapper-outer{
+#owl-luzu.owl-carousel .owl-wrapper-outer{
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.owl-carousel .owl-wrapper-outer.autoHeight{
+#owl-luzu.owl-carousel .owl-wrapper-outer.autoHeight{
   -webkit-transition: height 500ms ease-in-out;
   -moz-transition: height 500ms ease-in-out;
   -ms-transition: height 500ms ease-in-out;
@@ -37,7 +37,7 @@
   transition: height 500ms ease-in-out;
 }
   
-.owl-carousel .owl-item{
+#owl-luzu.owl-carousel .owl-item{
   float: left;
 }
 .owl-controls .owl-page,
@@ -59,8 +59,8 @@
 }
 
 /* fix */
-.owl-carousel  .owl-wrapper,
-.owl-carousel  .owl-item{
+#owl-luzu.owl-carousel  .owl-wrapper,
+#owl-luzu.owl-carousel  .owl-item{
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility:    hidden;
   -ms-backface-visibility:     hidden;
@@ -223,14 +223,14 @@
 * v1.23
 */
 
-.owl-theme .owl-controls{
+#owl-luzu.owl-theme .owl-controls{
   margin-top: 10px;
   text-align: center;
 }
 
 /* Styling Next and Prev buttons */
 
-.owl-theme .owl-controls .owl-buttons div{
+#owl-luzu.owl-theme .owl-controls .owl-buttons div{
   color: #FFF;
   display: inline-block;
   zoom: 1;
@@ -247,7 +247,7 @@
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
-.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+#owl-luzu.owl-theme .owl-controls.clickable .owl-buttons div:hover{
   filter: Alpha(Opacity=100);/*IE7 fix*/
   opacity: 1;
   text-decoration: none;
@@ -255,12 +255,12 @@
 
 /* Styling Pagination*/
 
-.owl-theme .owl-controls .owl-page{
+#owl-luzu.owl-theme .owl-controls .owl-page{
   display: inline-block;
   zoom: 1;
   *display: inline;/*IE7 life-saver */
 }
-.owl-theme .owl-controls .owl-page span{
+#owl-luzu.owl-theme .owl-controls .owl-page span{
   display: block;
   width: 12px;
   height: 12px;
@@ -273,15 +273,15 @@
   background: #869791;
 }
 
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span{
+#owl-luzu.owl-theme .owl-controls .owl-page.active span,
+#owl-luzu.owl-theme .owl-controls.clickable .owl-page:hover span{
   filter: Alpha(Opacity=100);/*IE7 fix*/
   opacity: 1;
 }
 
 /* If PaginationNumbers is true */
 
-.owl-theme .owl-controls .owl-page span.owl-numbers{
+#owl-luzu.owl-theme .owl-controls .owl-page span.owl-numbers{
   height: auto;
   width: auto;
   color: #FFF;
@@ -299,6 +299,9 @@
 }
 
 /****************/
+#owl-luzu.lb_728x90 {
+  width: 728px;
+}
 #owl-luzu .item{
   background: #3fbf79;
   padding: 30px 0px;
