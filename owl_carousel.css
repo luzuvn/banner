@@ -299,14 +299,50 @@
 }
 
 /****************/
+#luzu-banner-728x90 .customNavigation {
+    display: flex;
+}
+#luzu-banner-728x90 .icon {
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+}
+#luzu-banner-728x90 .icon::before  {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  opacity: 1;
+}
+#luzu-banner-728x90 .btn.play::before {
+  content: "";
+  background-image: url(https://luzuvn.github.io/banner/img/play.svg);
+}
+#luzu-banner-728x90 .btn.next::before {
+  content: "";
+  background-image: url(https://luzuvn.github.io/banner/img/next.svg);
+}
+#luzu-banner-728x90 .btn.prev::before {
+  content: "";
+  background-image: url(https://luzuvn.github.io/banner/img/prev.svg);
+}
+#luzu-banner-728x90 .btn.stop::before {
+  content: "";
+  background-image: url(https://luzuvn.github.io/banner/img/stop.svg);
+}
 #owl-luzu .owl-pagination {
   display: none !important;
 }
 #luzu-banner-728x90 {
-  max-width: 728px;
-  width: 100%;
-  margin: 0 auto;
-  height: 90px;
+max-width: 728px;
+    width: 100%;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 #owl-luzu .item{
   background: #3fbf79;
