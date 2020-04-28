@@ -300,7 +300,8 @@
 
 /****************/
 #luzu-banner-728x90 {
-  width: 728px;
+  max-width: 728px;
+  width: 100%;
 }
 #owl-luzu .item{
   background: #3fbf79;
