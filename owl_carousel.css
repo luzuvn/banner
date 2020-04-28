@@ -335,7 +335,7 @@
   display: none !important;
 }
 #luzu-banner-728x90 {
-max-width: 728px;
+    max-width: 728px;
     width: 100%;
     margin: 0 auto;
     height: 90px;
@@ -345,7 +345,6 @@ max-width: 728px;
     justify-content: space-between;
 }
 #owl-luzu .item{
-  background: #3fbf79;
   padding: 5px 0px;
   margin: 5px;
   color: #FFF;
@@ -353,6 +352,12 @@ max-width: 728px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
+}
+#owl-luzu .item .bn_product {
+  
+}
+#owl-luzu .item .bn_product>img {
+  width: 100%
 }
 .customNavigation{
   text-align: center;
