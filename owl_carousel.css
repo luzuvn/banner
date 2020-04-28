@@ -400,7 +400,7 @@
 #owl-luzu .item .bn_product {
 
 }
-#owl-luzu .item .bn_product>img {
+#owl-luzu .item .bn_product img {
     width: auto;
     max-width: 100%;
     max-height: 60px;
