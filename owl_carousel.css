@@ -299,9 +299,13 @@
 }
 
 /****************/
+#owl-luzu .owl-pagination {
+  display: none !important;
+}
 #luzu-banner-728x90 {
   max-width: 728px;
   width: 100%;
+  margin: 0 auto;
 }
 #owl-luzu .item{
   background: #3fbf79;
