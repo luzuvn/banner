@@ -317,6 +317,19 @@
   opacity: 1;
   filter: invert(99%) sepia(70%) saturate(58%) hue-rotate(130deg) brightness(113%) contrast(100%);
 }
+.luzu-contact {
+  margin-left: 15px;
+}
+.luzu-contact img.logolz {
+  max-height: 16px;
+}
+.luzu-contact .hotline a {
+      font-size: 16px;
+    color: #fff;
+    font-family: Arial;
+    text-decoration: none;
+    line-height: 1;
+}
 #luzu-banner-728x90 .btn.play::before {
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/play.svg);
