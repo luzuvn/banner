@@ -306,13 +306,13 @@
 #luzu-banner-728x90 .icon {
   align-items: center;
   display: flex;
-  padding: 5px;
+  padding: 0 5px;
   cursor: pointer;
 }
 #luzu-banner-728x90 .icon::before  {
   display: inline-block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   background-size: cover;
   opacity: 1;
   filter: invert(99%) sepia(70%) saturate(58%) hue-rotate(130deg) brightness(113%) contrast(100%);
