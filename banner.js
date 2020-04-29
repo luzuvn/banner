@@ -15,6 +15,14 @@
                 run_owl_carousel_728x90();
             });
         }
+
+        var banner_300x600 = document.getElementById('luzu-banner-300x600');
+        if (banner_300x600) {
+            var owlluzu = document.getElementById('owl-luzu-300x600');
+            render_owl_carousel(owlluzu, function() {
+                run_owl_carousel_300x600();
+            });
+        }
     });
 
 	var product_link = [
@@ -88,7 +96,7 @@
     	callback();
     }
     function run_owl_carousel_728x90() {
-    var owl = $("#owl-luzu-728x90");
+        var owl = $("#owl-luzu-728x90");
 
 	    owl.owlCarousel({
 	        items: 10, //10 items above 1000px browser width
@@ -113,6 +121,31 @@
 	    $(".stop").click(function() {
 	        owl.trigger('owl.stop');
 	    })
+    }
+    function run_owl_carousel_300x600() {
+        var owl = $("#owl-luzu-300x600");
+
+        owl.owlCarousel({
+            slideSpeed : 5000,
+            paginationSpeed : 200,
+            singleItem:true
+            // lazyLoad : true,
+        });
+        owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+
+        // Custom Navigation Events
+        $(".next").click(function() {
+            owl.trigger('owl.next');
+        })
+        $(".prev").click(function() {
+            owl.trigger('owl.prev');
+        })
+        $(".play").click(function() {
+            owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+        })
+        $(".stop").click(function() {
+            owl.trigger('owl.stop');
+        })
     }
 
 })();
