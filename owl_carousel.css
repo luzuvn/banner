@@ -464,6 +464,9 @@
 .owl-luzu .item:hover .luzu_qt {
   transform: translate3d(0, 0, 0);
 }
+#owl-luzu-300x600.owl-luzu .item:hover .luzu_qt {
+  transform: unset;
+}
 #owl-luzu-300x600 .luzu_qt {
   position: unset;
     transform: unset;
