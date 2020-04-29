@@ -4,7 +4,7 @@
  */
 
 /* clearfix */
-#owl-luzu.owl-carousel .owl-wrapper:after {
+.owl-luzu.owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
   clear: both;
@@ -13,23 +13,23 @@
   height: 0;
 }
 /* display none until init */
-#owl-luzu.owl-carousel{
+.owl-luzu.owl-carousel{
   display: none;
   position: relative;
   width: 100%;
   -ms-touch-action: pan-y;
 }
-#owl-luzu.owl-carousel .owl-wrapper{
+.owl-luzu.owl-carousel .owl-wrapper{
   display: none;
   position: relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
-#owl-luzu.owl-carousel .owl-wrapper-outer{
+.owl-luzu.owl-carousel .owl-wrapper-outer{
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-#owl-luzu.owl-carousel .owl-wrapper-outer.autoHeight{
+.owl-luzu.owl-carousel .owl-wrapper-outer.autoHeight{
   -webkit-transition: height 500ms ease-in-out;
   -moz-transition: height 500ms ease-in-out;
   -ms-transition: height 500ms ease-in-out;
@@ -37,7 +37,7 @@
   transition: height 500ms ease-in-out;
 }
   
-#owl-luzu.owl-carousel .owl-item{
+.owl-luzu.owl-carousel .owl-item{
   float: left;
 }
 .owl-controls .owl-page,
@@ -59,8 +59,8 @@
 }
 
 /* fix */
-#owl-luzu.owl-carousel  .owl-wrapper,
-#owl-luzu.owl-carousel  .owl-item{
+.owl-luzu.owl-carousel  .owl-wrapper,
+.owl-luzu.owl-carousel  .owl-item{
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility:    hidden;
   -ms-backface-visibility:     hidden;
@@ -223,14 +223,14 @@
 * v1.23
 */
 
-#owl-luzu.owl-theme .owl-controls{
+.owl-luzu.owl-theme .owl-controls{
   margin-top: 0;
   text-align: center;
 }
 
 /* Styling Next and Prev buttons */
 
-#owl-luzu.owl-theme .owl-controls .owl-buttons div{
+.owl-luzu.owl-theme .owl-controls .owl-buttons div{
   color: #FFF;
   display: inline-block;
   zoom: 1;
@@ -247,7 +247,7 @@
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
-#owl-luzu.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+.owl-luzu.owl-theme .owl-controls.clickable .owl-buttons div:hover{
   filter: Alpha(Opacity=100);/*IE7 fix*/
   opacity: 1;
   text-decoration: none;
@@ -255,12 +255,12 @@
 
 /* Styling Pagination*/
 
-#owl-luzu.owl-theme .owl-controls .owl-page{
+.owl-luzu.owl-theme .owl-controls .owl-page{
   display: inline-block;
   zoom: 1;
   *display: inline;/*IE7 life-saver */
 }
-#owl-luzu.owl-theme .owl-controls .owl-page span{
+.owl-luzu.owl-theme .owl-controls .owl-page span{
   display: block;
   width: 12px;
   height: 12px;
@@ -273,15 +273,15 @@
   background: #869791;
 }
 
-#owl-luzu.owl-theme .owl-controls .owl-page.active span,
-#owl-luzu.owl-theme .owl-controls.clickable .owl-page:hover span{
+.owl-luzu.owl-theme .owl-controls .owl-page.active span,
+.owl-luzu.owl-theme .owl-controls.clickable .owl-page:hover span{
   filter: Alpha(Opacity=100);/*IE7 fix*/
   opacity: 1;
 }
 
 /* If PaginationNumbers is true */
 
-#owl-luzu.owl-theme .owl-controls .owl-page span.owl-numbers{
+.owl-luzu.owl-theme .owl-controls .owl-page span.owl-numbers{
   height: auto;
   width: auto;
   color: #FFF;
@@ -369,7 +369,7 @@
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/stop.svg);
 }
-#owl-luzu .owl-pagination {
+.owl-luzu .owl-pagination {
   display: none !important;
 }
 #luzu-banner-728x90 {
@@ -414,7 +414,7 @@
     bottom: 10px;
     left: 5px;
 } 
-#owl-luzu .item{
+.owl-luzu .item{
   padding: 0px;
   margin-top: 3px;
   color: #FFF;
@@ -424,15 +424,15 @@
   text-align: center;
   position: relative;
 }
-#owl-luzu .item .bn_product {
+.owl-luzu .item .bn_product {
 
 }
-#owl-luzu .item .bn_product img {
+.owl-luzu .item .bn_product img {
     width: auto;
     max-width: 100%;
     max-height: 60px;
 }
-#owl-luzu .item:hover .luzu_qt {
+.owl-luzu .item:hover .luzu_qt {
   transform: translate3d(0, 0, 0);
 }
 .luzu_qt {

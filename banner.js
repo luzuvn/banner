@@ -8,9 +8,12 @@
 
 
     $(document).ready(function() {
-    render_owl_carousel(function() {
-            run_owl_carousel();
-        });
+        var banner_728x90 = document.getElementById('luzu-banner-728x90');
+        if (banner_728x90) {
+            render_owl_carousel(function() {
+                run_owl_carousel_728x90();
+            });
+        }
     });
 
 	var product_link = [
@@ -83,8 +86,8 @@
 
     	callback();
     }
-    function run_owl_carousel() {
-    var owl = $("#owl-luzu");
+    function run_owl_carousel_728x90() {
+    var owl = $("#owl-luzu-728x90");
 
 	    owl.owlCarousel({
 	        items: 10, //10 items above 1000px browser width
