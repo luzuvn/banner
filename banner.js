@@ -26,21 +26,21 @@
     });
 
 	var product_link = [
-        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí Apechome MIK- 28EX', sale: '26%', qt: 'lifecook-fc-ls18'},
-        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r' },
-        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí Apechome MIK-800EX', sale: '22%', qt: 'aph-10b' },
-        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r' },
-        { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng Ecoco E1705', sale: '25%', qt: 'aph-st05s' },
-        { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp đa năng Ecoco E1712', sale: '49%', qt: '' },
-        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn Ecoco E1717, không khoan tường', sale: '49%', qt: '' },
-        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh treo tường đa năng ECOCO A1804', sale: '49%', qt: '' },
+        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí<br>Apechome MIK- 28EX', sale: '26%', qt: 'lifecook-fc-ls18'},
+        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí<br>Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r' },
+        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-800EX', sale: '22%', qt: 'aph-10b' },
+        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r' },
+        { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng<br>Ecoco E1705', sale: '25%', qt: 'aph-st05s' },
+        { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp đa năng<br>Ecoco E1712', sale: '49%', qt: '' },
+        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn<br>Ecoco E1717, không khoan tường', sale: '49%', qt: '' },
+        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh<br>treo tường đa năng ECOCO A1804', sale: '49%', qt: '' },
         { img: 'ecoco-e1802', path: 'https://luzu.vn/bo-dung-cu-lay-kem-danh-rang-tu-dong-ecoco-e1802-k7k8z699.html', title: 'Bộ dụng cụ lấy kem đánh răng tự động Ecoco E1802', sale: '49%', qt: '' },
-        { img: 'aph-20r', path: 'https://luzu.vn/may-xay-sinh-to-apechhome-aph-20r-k802gbr9.html', title: 'Máy Xay Sinh Tố Apechome APH-20R', sale: '25%', qt: 'aph-st05s' },
-        { img: 'aph-15r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-15r-k8dus149.html', title: 'Máy Xay Sinh Tố Apechome APH-15R', sale: '20%', qt: 'ecoco-e1717' },
-        { img: 'aph-61r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-61r-k8dv3uir.html', title: 'Máy Xay Sinh Tố Apechome APH-61R', sale: '20%', qt: 'aph-st05s' },
-        { img: 'aph-1500p', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-1500p-k8dzzxvh.html', title: 'Máy xay sinh tố Apechome APH-1500P', sale: '20%', qt: 'aph-444r' },
-        { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng Apechome LifeCook FC-LS18', sale: '25%', qt: 'aph-20r' },
-        { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen APH-10B', sale: '15%', qt: 'aph-15r' }
+        { img: 'aph-20r', path: 'https://luzu.vn/may-xay-sinh-to-apechhome-aph-20r-k802gbr9.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-20R', sale: '25%', qt: 'aph-st05s' },
+        { img: 'aph-15r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-15r-k8dus149.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-15R', sale: '20%', qt: 'ecoco-e1717' },
+        { img: 'aph-61r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-61r-k8dv3uir.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-61R', sale: '20%', qt: 'aph-st05s' },
+        { img: 'aph-1500p', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-1500p-k8dzzxvh.html', title: 'Máy xay sinh tố<br>Apechome APH-1500P', sale: '20%', qt: 'aph-444r' },
+        { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng<br>Apechome LifeCook FC-LS18', sale: '25%', qt: 'aph-20r' },
+        { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen<br>APH-10B', sale: '15%', qt: 'aph-15r' }
 
     ];
 
