@@ -26,10 +26,10 @@
     });
 
 	var product_link = [
-        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí cho phòng từ 30 - 35m2 Apechome MIK- 28EX CS 150W', sale: '26%', qt: 'lifecook-fc-ls18'},
-        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí cho phòng từ 15 - 20m2 Masterkool MIK-09EX CS 110W', sale: '29%', qt: 'aph-20r' },
-        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí cho phòng 40m2 Apechome MIK-800EX CS 190W', sale: '22%', qt: 'aph-10b' },
-        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí cho phòng 15m2 Apechome MIK-06EXS CS 64W', sale: '30%', qt: 'aph-666r' },
+        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí cho phòng từ 30 - 35m2 Apechome MIK- 28EX CS', sale: '26%', qt: 'lifecook-fc-ls18'},
+        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí cho phòng từ 15 - 20m2 Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r' },
+        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí cho phòng 40m2 Apechome MIK-800EX', sale: '22%', qt: 'aph-10b' },
+        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí cho phòng 15m2 Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r' },
         { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng Ecoco E1705', sale: '25%', qt: 'aph-st05s' },
         { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp đa năng Ecoco E1712', sale: '49%', qt: '' },
         { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn Ecoco E1717, không khoan tường', sale: '49%', qt: '' },
@@ -61,6 +61,15 @@
     				div.classList.add('bn_product');
     				item.appendChild(div);
     				
+                    if(owlluzu.getAttribute('id') == 'owl-luzu-300x600' ) {
+                        var product_t = document.createElement('h4');
+                            div.appendChild(product_t);
+                            var product_t_a = document.createElement('a');
+                                product_t_a.setAttribute("href", product_link[i].path + tracking_param);
+                                product_t_a.innerHTML = product_link[i].title;
+                                product_t.appendChild(product_t_a);
+                    }
+
     				var product_a = document.createElement('a');
     					product_a.setAttribute("href", product_link[i].path + tracking_param);
     					product_a.setAttribute("title", product_link[i].title);
