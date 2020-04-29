@@ -63,7 +63,16 @@
 	    				product_sale.innerHTML = '-' + product_link[i].sale;
 	    				item.appendChild(product_sale);
 
+                    var qt = document.createElement('div');
+                        qt.classList.add('luzu_qt');
+                        item.appendChild(qt);
+                        var qt_img = document.createElement('img');
+                            qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
+                            qt.appendChild(qt_img);
+
     		owlluzu.appendChild(item);
+
+            
     	}
 
     	callback();
