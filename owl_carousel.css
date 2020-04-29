@@ -299,17 +299,17 @@
 }
 
 /****************/
-#luzu-banner-728x90 .customNavigation {
+.luzu-banner .customNavigation {
     display: flex;
         margin-bottom: 3px;
 }
-#luzu-banner-728x90 .icon {
+.luzu-banner .icon {
   align-items: center;
   display: flex;
   padding: 0 5px;
   cursor: pointer;
 }
-#luzu-banner-728x90 .icon::before  {
+.luzu-banner .icon::before  {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -353,19 +353,19 @@
     line-height: 1;
     margin-left: 5px;
 }
-#luzu-banner-728x90 .btn.play::before {
+.luzu-banner .btn.play::before {
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/play.svg);
 }
-#luzu-banner-728x90 .btn.next::before {
+.luzu-banner .btn.next::before {
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/next.svg);
 }
-#luzu-banner-728x90 .btn.prev::before {
+.luzu-banner .btn.prev::before {
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/prev.svg);
 }
-#luzu-banner-728x90 .btn.stop::before {
+.luzu-banner .btn.stop::before {
   content: "";
   background-image: url(https://luzuvn.github.io/banner/img/stop.svg);
 }
@@ -381,13 +381,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-#luzu-banner-728x90 {
     background-image: url(https://luzuvn.github.io/banner/img/728x90.jpg);
     background-repeat: no-repeat;
     background-color: #f7b929;
 }
-#luzu-banner-728x90 .banner-bottom {
+#luzu-banner-300x600 {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-color: #f7b929;
+}
+.luzu-banner .banner-bottom {
     display: flex;
     justify-content: space-around;
     width: 100%;

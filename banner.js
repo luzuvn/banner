@@ -30,14 +30,14 @@
         { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng Apechome LifeCook FC-LS18', sale: '25%', qt: 'aph-20r' },
         { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen APH-10B', sale: '15%', qt: 'aph-15r' }
 
-    ];  
+    ];
 
     var domain = window.location.host;
     var	domain_name = domain.split('.')[0];
     	if (!domain_name) {
     		domain_name = 'hv';
     	}
-    var tracking_param = '?utm_source=' + domain_name + '&utm_medium=banner&utm_campaign=thang456';
+    var tracking_param = '?utm_source=' + domain_name + '&utm_medium=banner728x90&utm_campaign=thang456';
 
     function render_owl_carousel(callback) {
 	    var owlluzu = document.getElementById('owl-luzu');
@@ -67,9 +67,13 @@
                         var qt = document.createElement('div');
                             qt.classList.add('luzu_qt');
                             item.appendChild(qt);
-                            var qt_img = document.createElement('img');
-                                qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
-                                qt.appendChild(qt_img);
+                            var product_a1 = document.createElement('a');
+                                product_a1.setAttribute("href", product_link[i].path + tracking_param);
+                                product_a1.setAttribute("title", product_link[i].title);
+                                qt.appendChild(product_a1);
+                                var qt_img = document.createElement('img');
+                                    qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
+                                    product_a1.appendChild(qt_img);
                     }
 
     		owlluzu.appendChild(item);
