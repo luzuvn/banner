@@ -10,7 +10,8 @@
     $(document).ready(function() {
         var banner_728x90 = document.getElementById('luzu-banner-728x90');
         if (banner_728x90) {
-            render_owl_carousel(function() {
+            var owlluzu = document.getElementById('owl-luzu-728x90');
+            render_owl_carousel(owlluzu, function() {
                 run_owl_carousel_728x90();
             });
         }
@@ -42,8 +43,8 @@
     	}
     var tracking_param = '?utm_source=' + domain_name + '&utm_medium=banner728x90&utm_campaign=thang456';
 
-    function render_owl_carousel(callback) {
-	    var owlluzu = document.getElementById('owl-luzu');
+    function render_owl_carousel(owlluzu, callback) {
+	    
     	for (var i = 0; i < product_link.length; i++) {
     
     		var item = document.createElement('div');
