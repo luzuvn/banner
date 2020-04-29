@@ -126,7 +126,7 @@
         var owl = $("#owl-luzu-300x600");
 
         owl.owlCarousel({
-            slideSpeed : 5000,
+            slideSpeed : 200,
             paginationSpeed : 200,
             singleItem:true
             // lazyLoad : true,
@@ -135,10 +135,10 @@
 
         // Custom Navigation Events
         $(".next").click(function() {
-            owl.trigger('owl.next');
+            owl.trigger('owl.next', 200);
         })
         $(".prev").click(function() {
-            owl.trigger('owl.prev');
+            owl.trigger('owl.prev', 200);
         })
         $(".play").click(function() {
             owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
