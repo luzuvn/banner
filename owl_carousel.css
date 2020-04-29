@@ -379,7 +379,7 @@
 #luzu-banner-728x90 {
     background-image: url(https://luzuvn.github.io/banner/img/728x90.jpg);
     background-repeat: no-repeat;
-        background-color: #f7b929;
+    background-color: #f7b929;
 }
 #luzu-banner-728x90 .banner-bottom {
     display: flex;
@@ -387,7 +387,17 @@
     width: 100%;
     background-color: #00000024;
     height: 23px;
-}   
+}
+.luzu_product_sale {
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #E91E63;
+    padding: 4px 2px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+} 
 #owl-luzu .item{
   padding: 0px;
   margin-top: 3px;
@@ -396,6 +406,7 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
+  position: relative;
 }
 #owl-luzu .item .bn_product {
 
