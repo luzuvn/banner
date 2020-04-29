@@ -397,12 +397,23 @@
     background-repeat: no-repeat;
     background-color: #f7b929;
 }
+#owl-luzu-300x600 .luzu-banner .banner-bottom {
+  height: 30px;
+}
 .luzu-banner .banner-bottom {
     display: flex;
     justify-content: space-around;
     width: 100%;
     background-color: #00000024;
     height: 23px;
+}
+#owl-luzu-300x600 .luzu_product_sale {
+  font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    left: 0;
+    bottom: unset;
+    top: 38%;
 }
 .luzu_product_sale {
     font-size: 10px;
@@ -413,6 +424,10 @@
     position: absolute;
     bottom: 10px;
     left: 5px;
+} 
+#owl-luzu-300x600.owl-luzu .item {
+    margin-top: 0;
+    height: 570px;
 } 
 .owl-luzu .item{
   padding: 0px;
@@ -426,11 +441,11 @@
   font-family: Arial;
 }
 .owl-luzu .item .bn_product>h4 {
-  font-size: 14px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 0 20px;
-    margin: 40px 0 30px;
+    padding: 40px 20px 30px;
+    margin: 0;
     line-height: 1.3;
 }
 .owl-luzu .item .bn_product>h4 a {
@@ -449,6 +464,16 @@
 .owl-luzu .item:hover .luzu_qt {
   transform: translate3d(0, 0, 0);
 }
+#owl-luzu-300x600 .luzu_qt {
+  position: unset;
+    transform: unset;
+    background-color: transparent;
+    top: unset;
+    left: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .luzu_qt {
     transform: translate3d(0, -70px, 0);
     will-change: transform;
@@ -458,6 +483,9 @@
     top: -1px;
     background-color: #fff;
     border-radius: 3px;
+}
+#owl-luzu-300x600 .luzu_qt img {
+  max-height: 150px;
 }
 .luzu_qt img {
   width: auto;

@@ -84,7 +84,7 @@
 	    				product_sale.innerHTML = '-' + product_link[i].sale;
 	    				item.appendChild(product_sale);
 
-                    if (product_link[i].qt != '') {
+                    if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
                         var qt = document.createElement('div');
                             qt.classList.add('luzu_qt');
                             item.appendChild(qt);
@@ -95,6 +95,22 @@
                                 var qt_img = document.createElement('img');
                                     qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
                                     product_a1.appendChild(qt_img);
+                    }
+
+                    if (owlluzu.getAttribute('id') == 'owl-luzu-300x600') {
+                        var qt = document.createElement('div');
+                            qt.classList.add('luzu_qt');
+                            item.appendChild(qt);
+
+                            var freeship = document.createElement('span');
+                                freeship.classList.add('luzu_freeship');
+                                freeship.innerHTML = 'FreeShip';
+                                qt.appendChild(freeship);
+                            if (product_link[i].qt != '') {
+                                var qt_img = document.createElement('img');
+                                    qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
+                                    qt.appendChild(qt_img);
+                            }
                     }
 
     		owlluzu.appendChild(item);
