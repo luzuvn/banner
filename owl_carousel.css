@@ -397,7 +397,7 @@
     background-repeat: no-repeat;
     background-color: #f7b929;
 }
-.luzu-banner.h30 .banner-bottom {
+.luzu-banner .banner-bottom.h30 {
   height: 30px;
 }
 .luzu-banner .banner-bottom {
@@ -438,6 +438,12 @@
   text-align: center;
   position: relative;
   font-family: Arial;
+}
+#owl-luzu-300x600.owl-luzu .item .bn_product {
+      min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .owl-luzu .item .bn_product>h4 {
     font-size: 15px;
