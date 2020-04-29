@@ -392,11 +392,11 @@
     font-size: 10px;
     font-family: Arial;
     font-weight: bold;
-    background-color: #E91E63;
-    padding: 4px 2px;
+    background-color: #e91e63c2;
+    padding: 2px 2px;
     position: absolute;
-    top: 10px;
-    left: 0;
+    bottom: 10px;
+    left: 5px;
 } 
 #owl-luzu .item{
   padding: 0px;
