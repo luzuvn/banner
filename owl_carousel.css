@@ -428,7 +428,8 @@
 
 }
 #owl-luzu-300x600.owl-luzu .item .bn_product img {
-  max-height: 250px;
+  max-width: 250px;
+  max-height: 450px;
 }
 .owl-luzu .item .bn_product img {
     width: auto;
