@@ -422,13 +422,18 @@
     max-width: 100%;
     max-height: 60px;
 }
+#owl-luzu .item:hover .luzu_qt {
+  transform: translate3d(0, 0, 0);
+}
 .luzu_qt {
     transform: translate3d(0, -70px, 0);
     will-change: transform;
     transition: transform cubic-bezier(0.4, 0, 0.2, 1) 218ms;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -1px;
+    background-color: #fff;
+    border-radius: 3px;
 }
 .luzu_qt img {
   width: auto;
