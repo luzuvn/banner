@@ -178,7 +178,7 @@
             singleItem:true
             // lazyLoad : true,
         });
-        owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+        owl.trigger('owl.play', 8000); //owl.play event accept autoPlay speed as second parameter
 
         // Custom Navigation Events
         $(".next").click(function() {
@@ -188,7 +188,7 @@
             owl.trigger('owl.prev', 200);
         })
         $(".play").click(function() {
-            owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+            owl.trigger('owl.play', 8000); //owl.play event accept autoPlay speed as second parameter
         })
         $(".stop").click(function() {
             owl.trigger('owl.stop');
