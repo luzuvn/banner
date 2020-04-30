@@ -587,7 +587,7 @@
 /* banner 300x250 */
 #luzu-banner-300x600.s300x250 {
     height: 250px;
-    background-image: url(img/300x250.jpg)
+    background-image: url(https://luzuvn.github.io/banner/img/300x250.jpg)
 }
 .s300x250 #owl-luzu-300x600.owl-luzu .item {
     height: 220px;
