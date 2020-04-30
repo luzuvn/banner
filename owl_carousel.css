@@ -460,7 +460,7 @@
     padding: 2px 2px;
 }
 .luzu_freeship>img {
-  max-height: 22px;
+  max-height: 22px !important;
 }
 
 .luzu_product_sale .gd {
