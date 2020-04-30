@@ -408,11 +408,14 @@
     height: 23px;
 }
 #owl-luzu-300x600 .luzu_product_sale {
-  font-size: 20px;
+font-size: 25px;
     padding: 5px 10px;
     left: 0;
     bottom: unset;
     top: 38%;
+    display: flex;
+    line-height: 1;
+    align-items: center;
 }
 .luzu_product_sale {
     font-size: 10px;
@@ -423,7 +426,15 @@
     position: absolute;
     bottom: 10px;
     left: 5px;
-} 
+}
+.luzu_product_sale .gd {
+      font-size: 10px;
+    font-weight: 100;
+    text-align: left;
+    margin-right: 5px;
+    line-height: 11px;
+    color: #ffffffb0;
+}
 #owl-luzu-300x600.owl-luzu .item {
     margin-top: 0;
     height: 570px;

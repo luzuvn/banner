@@ -32,8 +32,8 @@
         { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r' },
         { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng<br>Ecoco E1705', sale: '25%', qt: 'aph-st05s' },
         { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp đa năng<br>Ecoco E1712', sale: '49%', qt: '' },
-        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn<br>Ecoco E1717, không khoan tường', sale: '49%', qt: '' },
-        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh<br>treo tường đa năng ECOCO A1804', sale: '49%', qt: '' },
+        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn<br>Ecoco E1717', sale: '49%', qt: '' },
+        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh treo tường<br>đa năng ECOCO A1804', sale: '49%', qt: '' },
         { img: 'ecoco-e1802', path: 'https://luzu.vn/bo-dung-cu-lay-kem-danh-rang-tu-dong-ecoco-e1802-k7k8z699.html', title: 'Bộ dụng cụ lấy kem đánh răng tự động Ecoco E1802', sale: '49%', qt: '' },
         { img: 'aph-20r', path: 'https://luzu.vn/may-xay-sinh-to-apechhome-aph-20r-k802gbr9.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-20R', sale: '25%', qt: 'aph-st05s' },
         { img: 'aph-15r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-15r-k8dus149.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-15R', sale: '20%', qt: 'ecoco-e1717' },
@@ -81,7 +81,11 @@
 	    			
 	    			var product_sale = 	document.createElement('span');
 	    				product_sale.classList.add('luzu_product_sale');
-	    				product_sale.innerHTML = '-' + product_link[i].sale;
+                        var giam_den = '';
+                        if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
+                            giam_den = '<span class="gd">GIẢM<br>ĐẾN</span>';
+                        }
+	    				product_sale.innerHTML = giam_den + ' -' + product_link[i].sale;
 	    				item.appendChild(product_sale);
 
                     if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
