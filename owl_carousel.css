@@ -397,6 +397,7 @@
     background-image: url(https://luzuvn.github.io/banner/img/300x600.jpg);
     background-repeat: no-repeat;
     background-color: #dcf8ec;
+    overflow: hidden;
 }
 .luzu-banner .banner-bottom.h30 {
   height: 30px;
