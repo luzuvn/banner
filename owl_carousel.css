@@ -801,7 +801,7 @@
 }
 
 #luzu_flip div:first-child {
-  animation: show 8s linear infinite;
+  animation: show 10s linear infinite;
 }
 
 #luzu_flip div div {
