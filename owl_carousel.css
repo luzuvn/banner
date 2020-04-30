@@ -512,7 +512,7 @@
 }
 .luzu_price_origin {
       font-size: 15px;
-    color: #1d35b942;
+    color: #1d35b982;;
     text-decoration: line-through;
 }
 .luzu_price_sale {
@@ -807,7 +807,7 @@
 #luzu_flip div div {
   background:#ffffff;
   padding: 0 10px;
-  color: #1d35b942;
+  color: #1d35b982;;
 }
 #luzu_flip div:first-child div {
   background:#24c0c9;
