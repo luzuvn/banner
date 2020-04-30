@@ -416,9 +416,9 @@
 }
 #owl-luzu-300x600 .luzu_product_sale .pt {
   font-size: 25px;
-  background: red;
-  width: 80px;
-  height: 80px;
+  height: 40px;
+  width: 40px;
+  background: #F44336;
   position: relative;
   text-align: center;
   transform: rotate(20deg);
@@ -428,10 +428,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 80px;
-  width: 80px;
-  background: red;
+  height: 40px;
+  width: 40px;
+  background: #F44336;
   transform: rotate(135deg);
+}
+#owl-luzu-300x600 .luzu_product_sale .pt:after {
+  content: attr(data-after);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .luzu_product_sale {
     position: absolute;
@@ -448,10 +454,10 @@
 
 
 .luzu_product_sale .gd {
-      font-size: 10px;
+    font-size: 10px;
     font-weight: 100;
     text-align: left;
-    margin-right: 5px;
+    padding-right: 15px;
     line-height: 11px;
     color: #ffffffb0;
 }

@@ -96,7 +96,8 @@
                         if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
                             giam_den = '<span class="gd">GIẢM<br>ĐẾN</span>';
                         }
-	    				product_sale.innerHTML = giam_den + '<span class="pt">-' + product_link[i].sale + '</span>';
+	    				product_sale.innerHTML = giam_den + '<span class="pt"></span>';
+                        product_sale.setAttribute('data-after', product_link[i].sale);
 	    				item.appendChild(product_sale);
 
                     if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
