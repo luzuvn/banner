@@ -422,6 +422,7 @@
   position: relative;
   text-align: center;
   padding: 0;
+  transform: rotate(-60deg);
 }
 #owl-luzu-300x600 .luzu_product_sale .pt:before {
   content: "";
@@ -442,6 +443,9 @@
   width: 40px;
   background: #F44336;
   transform: rotate(60deg);
+      display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .luzu_product_sale {
     position: absolute;

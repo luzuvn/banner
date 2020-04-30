@@ -126,7 +126,7 @@
 
                             var freeship = document.createElement('span');
                                 freeship.classList.add('luzu_freeship');
-                                freeship.innerHTML = 'FreeShip';
+                                freeship.innerHTML = '<img src="https://luzuvn.github.io/banner/img/freeship.png"'>;
                                 qt.appendChild(freeship);
                             if (product_link[i].qt != '') {
                                 var qt_img = document.createElement('img');
