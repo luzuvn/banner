@@ -459,7 +459,9 @@
     background-color: #f44336de;
     padding: 2px 2px;
 }
-
+.luzu_freeship>img {
+  max-height: 22px;
+}
 
 .luzu_product_sale .gd {
     font-size: 10px;
@@ -545,7 +547,7 @@
     left: unset;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 150px;
 }
 .luzu_qt {
