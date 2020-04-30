@@ -92,12 +92,18 @@
 	    			
 	    			var product_sale = 	document.createElement('span');
 	    				product_sale.classList.add('luzu_product_sale');
-                        var giam_den = '';
                         if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
-                            giam_den = '<span class="gd">GIẢM<br>ĐẾN</span>';
+                            var giam_den = document.createElement('span');
+                                giam_den.classList.add('gd');
+                                giam_den.innerHTML = 'GIẢM<br>ĐẾN';
+                                product_sale.appendChild(giam_den);
                         }
-	    				product_sale.innerHTML = giam_den + '<span class="pt"></span>';
-                        product_sale.setAttribute('data-after', product_link[i].sale);
+                        var phan_tram = document.createElement('span');
+                            phan_tram.classList.add('pt');
+                            phan_tram.setAttribute('data-after', product_link[i].sale);
+                            product_sale.appendChild(phan_tram);
+
+                        
 	    				item.appendChild(product_sale);
 
                     if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
