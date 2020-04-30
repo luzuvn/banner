@@ -23,6 +23,19 @@
                 run_owl_carousel_300x600();
             });
         }
+
+        // var fr_a = document.getElementsByClassName('luzu_freeship');
+        // var qt_a = document.getElementsByClassName('luzu_qt_img');
+        // setInterval(function(){
+        //     for (var i = 0; i < fr_a.length; i++) {
+        //         fr_a[i].classList.toggle('hvr-wobble-bottom');
+        //         if (qt_a[i]) {
+        //             qt_a[i].classList.toggle('hvr-buzz-out');
+        //         }
+        //     }
+        // }, 2000);
+        
+
     });
 
 	var product_link = [
@@ -91,7 +104,7 @@
 	    					product_a.appendChild(product_img);
 	    			
 	    			var product_sale = 	document.createElement('span');
-	    				product_sale.classList.add('luzu_product_sale');
+	    				product_sale.classList = 'luzu_product_sale hvr-pulse-shrink';
                         if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
                             var giam_den = document.createElement('span');
                                 giam_den.classList.add('gd');
@@ -125,11 +138,12 @@
                             item.appendChild(qt);
 
                             var freeship = document.createElement('span');
-                                freeship.classList.add('luzu_freeship');
+                                freeship.classList = 'luzu_freeship hvr-wobble-bottom';
                                 freeship.innerHTML = '<img src="https://luzuvn.github.io/banner/img/freeship.png">';
                                 qt.appendChild(freeship);
                             if (product_link[i].qt != '') {
                                 var qt_img = document.createElement('img');
+                                    qt_img.classList = 'luzu_qt_img hvr-buzz-out';
                                     qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
                                     qt.appendChild(qt_img);
                             }
