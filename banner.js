@@ -70,20 +70,12 @@
                                 product_t_a.innerHTML = product_link[i].title;
                                 product_t.appendChild(product_t_a);
 
-var flip_price = '<div id="luzu_flip"><div><div><span class="product_labe">Tiết kiệm: </span><span class="luzu_price_sale">'+product_link[i].price_save+'</span></div></div><div><div><span class="product_labe">Giá thị trường: </span><span class="luzu_price_origin">'+product_link[i].price_origin+'</span></div></div><div><div><span class="product_labe">Giá sale: </span><span class="luzu_price_sale">'+product_link[i].price+'</span></div></div></div>';
+                        var flip_price = '<div id="luzu_flip"><div><div><span class="product_labe">Tiết kiệm: </span><span class="luzu_price_sale">'+product_link[i].price_save+'</span></div></div><div><div><span class="product_labe">Giá thị trường: </span><span class="luzu_price_origin">'+product_link[i].price_origin+'</span></div></div><div><div><span class="product_labe">Giá sale: </span><span class="luzu_price_sale">'+product_link[i].price+'</span></div></div></div>';
 
                         var product_price = document.createElement('div');
                             product_price.classList.add('luzu_price');
                             product_price.innerHTML = flip_price;
                             div.appendChild(product_price);
-                            // var price_origin = document.createElement('span');
-                            //     price_origin.classList.add('luzu_price_origin');
-                            //     price_origin.innerHTML = product_link[i].price_origin;
-                            //     product_price.appendChild(price_origin);
-                            // var price_sale = document.createElement('span');
-                            //     price_sale.classList.add('luzu_price_sale');
-                            //     price_sale.innerHTML = product_link[i].price;
-                            //     product_price.appendChild(price_sale);
                     }
 
     				var product_a = document.createElement('a');
@@ -188,7 +180,7 @@ var flip_price = '<div id="luzu_flip"><div><div><span class="product_labe">Tiế
             singleItem:true
             // lazyLoad : true,
         });
-        owl.trigger('owl.play', 8000); //owl.play event accept autoPlay speed as second parameter
+        owl.trigger('owl.play', 10000); //owl.play event accept autoPlay speed as second parameter
 
         // Custom Navigation Events
         $(".next").click(function() {
