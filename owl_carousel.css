@@ -401,6 +401,9 @@
 .luzu-banner .banner-bottom.h30 {
   height: 30px;
 }
+#luzu-banner-300x600 .luzu-banner .banner-bottom {
+  background-color: unset;
+}
 .luzu-banner .banner-bottom {
     display: flex;
     justify-content: space-around;
@@ -496,7 +499,7 @@
 .owl-luzu .item .bn_product>h4 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: bold;
     padding: 25px 20px 5px;
     margin: 0;
     line-height: 20px;
@@ -510,7 +513,7 @@
 }
 .luzu_price_origin {
       font-size: 15px;
-    color: #ffffff75;
+    color: #1d35b942;
     text-decoration: line-through;
 }
 .luzu_price_sale {
@@ -522,7 +525,7 @@
     border-radius: 5px;
 }
 .owl-luzu .item .bn_product>h4 a {
-  color: #fff;
+  color: #1b32b8;
   text-decoration: none;
 }
 #owl-luzu-300x600.owl-luzu .item .bn_product img {
