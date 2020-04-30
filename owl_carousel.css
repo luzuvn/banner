@@ -400,10 +400,9 @@
 }
 .luzu-banner .banner-bottom.h30 {
   height: 30px;
-}
-#luzu-banner-300x600 .luzu-banner .banner-bottom {
   background-color: unset;
 }
+
 .luzu-banner .banner-bottom {
     display: flex;
     justify-content: space-around;
@@ -473,7 +472,7 @@
     text-align: right;
     padding-right: 15px;
     line-height: 11px;
-    color: #ffffffb0;
+    color: #24c0c9;
 }
 #owl-luzu-300x600.owl-luzu .item {
     margin-top: 0;
