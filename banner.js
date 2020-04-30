@@ -134,6 +134,9 @@
                                     qt_img.classList = 'luzu_qt_img hvr-buzz-out';
                                     qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
                                     qt.appendChild(qt_img);
+                            } else {
+                                qt.style.justifyContent = "flex-end";
+                                freeship.style.marginRight = '20px';
                             }
                     }
 
