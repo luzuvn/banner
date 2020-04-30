@@ -24,18 +24,6 @@
             });
         }
 
-        // var fr_a = document.getElementsByClassName('luzu_freeship');
-        // var qt_a = document.getElementsByClassName('luzu_qt_img');
-        // setInterval(function(){
-        //     for (var i = 0; i < fr_a.length; i++) {
-        //         fr_a[i].classList.toggle('hvr-wobble-bottom');
-        //         if (qt_a[i]) {
-        //             qt_a[i].classList.toggle('hvr-buzz-out');
-        //         }
-        //     }
-        // }, 2000);
-        
-
     });
 
 	var product_link = [
@@ -105,15 +93,19 @@
 	    			
 	    			var product_sale = 	document.createElement('span');
 	    				product_sale.classList = 'luzu_product_sale hvr-pulse-shrink';
-                        if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
-                            var giam_den = document.createElement('span');
-                                giam_den.classList.add('gd');
-                                giam_den.innerHTML = 'GIẢM<br>ĐẾN';
-                                product_sale.appendChild(giam_den);
-                        }
+
                         var phan_tram = document.createElement('span');
                             phan_tram.classList.add('pt');
-                            phan_tram.setAttribute('data-after', product_link[i].sale);
+                            if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
+                                var giam_den = document.createElement('span');
+                                    giam_den.classList.add('gd');
+                                    giam_den.innerHTML = 'GIẢM<br>ĐẾN';
+                                    product_sale.appendChild(giam_den);
+                                    phan_tram.setAttribute('data-after', product_link[i].sale);
+                            } else {
+                                phan_tram.innerHTML = '-' + product_link[i].sale;
+                            }
+                            
                             product_sale.appendChild(phan_tram);
 
                         
