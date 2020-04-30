@@ -20,8 +20,9 @@
 <body class="theme-default single-video">
     <main>
         <div id="luzu-banner-300x600" class="luzu-banner">
+
             <div id="owl-luzu-300x600" class="owl-carousel owl-theme owl-luzu">
-               
+
             </div>
             <div class="banner-bottom h30">
                 <div class="luzu-contact">
@@ -40,7 +41,50 @@
         </div>
     </main>
     <style type="text/css">
+#luzu_flip {
+  height:30px;
+  overflow:hidden;
+}
 
+#luzu_flip > div > div {
+  
+  height:30px;
+  margin-bottom:30px;
+  display:inline-block;
+  border-radius: 5px;
+}
+
+#luzu_flip div:first-child {
+  animation: show 8s linear infinite;
+}
+
+#luzu_flip div div {
+  background:transparent;
+  padding: 0 10px;
+  color: #1d35b942;
+}
+#luzu_flip div:first-child div {
+  background:#24c0c9;
+  color:#fff;
+}
+#luzu_flip div:last-child div {
+    background:#F44336;  
+    color:#fff;
+}
+#luzu_flip .product_labe {
+    font-weight: 300;
+    font-size: 13px;
+}
+@keyframes show {
+  0% {margin-top:-180px;}
+  5% {margin-top:-120px;}
+  33% {margin-top:-120px;}
+  38% {margin-top:-60px;}
+  66% {margin-top:-60px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-180px;}
+}
     </style>
 }
 </body>

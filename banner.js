@@ -27,21 +27,21 @@
     });
 
 	var product_link = [
-        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí<br>Apechome MIK- 28EX', sale: '26%', qt: 'lifecook-fc-ls18', price_origin: '5.400.000 đ', price: '3.996.000 đ' },
-        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí<br>Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r', price_origin: '2.790.000 đ', price: '1.981.000 đ' },
-        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-800EX', sale: '22%', qt: 'aph-10b', price_origin: '5.600.000 đ', price: '4.368.000 đ' },
-        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r', price_origin: '2.790.000 đ', price: '1.953.000 đ' },
-        { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng<br>Ecoco E1705', sale: '25%', qt: 'aph-st05s', price_origin: '590.000 đ', price: '443.000 đ' },
-        { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp<br>đa năng Ecoco E1712', sale: '49%', qt: '', price_origin: '390.000 đ', price: '198.900 đ' },
-        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn<br>Ecoco E1717', sale: '49%', qt: '', price_origin: '249.000 đ', price: '126.990 đ' },
-        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh<br>treo tường đa năng<br>ECOCO A1804', sale: '49%', qt: '', price_origin: '249.000 đ', price: '126.990 đ' },
-        { img: 'ecoco-e1802', path: 'https://luzu.vn/bo-dung-cu-lay-kem-danh-rang-tu-dong-ecoco-e1802-k7k8z699.html', title: 'Lấy kem đánh răng<br>tự động Ecoco E1802', sale: '49%', qt: '', price_origin: '349.000 đ', price: '178.000 đ' },
-        { img: 'aph-20r', path: 'https://luzu.vn/may-xay-sinh-to-apechhome-aph-20r-k802gbr9.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-20R', sale: '25%', qt: 'aph-st05s', price_origin: '695.000 đ', price: '521.000 đ' },
-        { img: 'aph-15r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-15r-k8dus149.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-15R', sale: '20%', qt: 'ecoco-e1717', price_origin: '520.000 đ', price: '416.000 đ' },
-        { img: 'aph-61r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-61r-k8dv3uir.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-61R', sale: '20%', qt: 'aph-st05s', price_origin: '725.000 đ', price: '580.000 đ' },
-        { img: 'aph-1500p', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-1500p-k8dzzxvh.html', title: 'Máy xay sinh tố<br>Apechome APH-1500P', sale: '20%', qt: 'aph-444r', price_origin: '2.180.000 đ', price: '1.744.000 đ' },
-        { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng<br>LifeCook FC-LS18', sale: '25%', qt: 'aph-20r', price_origin: '2.480.000 đ', price: '1.860.000 đ' },
-        { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen<br>APH-10B', sale: '15%', qt: 'aph-15r', price_origin: '1.490.000 đ', price: '1.267.000 đ' }
+        { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí<br>Apechome MIK- 28EX', sale: '26%', qt: 'lifecook-fc-ls18', price_origin: '5.400.000 đ', price: '3.996.000 đ', price_save: '1.404.000 đ' },
+        { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí<br>Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r', price_origin: '2.790.000 đ', price: '1.981.000 đ', price_save: '809.000 đ' },
+        { img: 'mik-800ex', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-40m2-apechome-mik-800ex-cs-190w-k7jvcjy4.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-800EX', sale: '22%', qt: 'aph-10b', price_origin: '5.600.000 đ', price: '4.368.000 đ', price_save: '1.232.000 đ' },
+        { img: 'mik-06exs', path: 'https://luzu.vn/quat-may-lam-mat-khong-khi-cho-phong-15m2-apechome-mik-06exs-cs-64w-k7jytpkv.html', title: 'Quạt điều hoà không khí<br>Apechome MIK-06EXS', sale: '30%', qt: 'aph-666r', price_origin: '2.790.000 đ', price: '1.953.000 đ', price_save: '837.000 đ' },
+        { img: 'ecoco-e1705', path: 'https://luzu.vn/bo-dung-gia-vi-da-nang-ecoco-e1705-k7kp6l93.html', title: 'Bộ đựng gia vị đa năng<br>Ecoco E1705', sale: '25%', qt: 'aph-st05s', price_origin: '590.000 đ', price: '443.000 đ', price_save: '147.000 đ' },
+        { img: 'ecoco-e1712', path: 'https://luzu.vn/ke-treo-do-phong-bep-da-nang-ecoco-e1712-k9b86m4n.html', title: 'Kệ treo đồ phòng bếp<br>đa năng Ecoco E1712', sale: '49%', qt: '', price_origin: '390.000 đ', price: '198.900 đ', price_save: '191.100 đ' },
+        { img: 'ecoco-e1717', path: 'https://luzu.vn/gia-treo-gap-gon-ecoco-e1717-khong-khoan-tuong-k7l9ij3b.html', title: 'Giá treo gấp gọn<br>Ecoco E1717', sale: '49%', qt: '', price_origin: '249.000 đ', price: '126.990 đ', price_save: '122.010 đ' },
+        { img: 'ecoco-a1804', path: 'https://luzu.vn/bo-de-giay-ve-sinh-treo-tuong-da-nang-ecoco-a1804-k9b74quk.html', title: 'Bộ để giấy vệ sinh<br>treo tường đa năng<br>ECOCO A1804', sale: '49%', qt: '', price_origin: '249.000 đ', price: '126.990 đ', price_save: '122.010 đ' },
+        { img: 'ecoco-e1802', path: 'https://luzu.vn/bo-dung-cu-lay-kem-danh-rang-tu-dong-ecoco-e1802-k7k8z699.html', title: 'Lấy kem đánh răng<br>tự động Ecoco E1802', sale: '49%', qt: '', price_origin: '349.000 đ', price: '178.000 đ', price_save: '171.000 đ' },
+        { img: 'aph-20r', path: 'https://luzu.vn/may-xay-sinh-to-apechhome-aph-20r-k802gbr9.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-20R', sale: '25%', qt: 'aph-st05s', price_origin: '695.000 đ', price: '521.000 đ', price_save: '174.000 đ' },
+        { img: 'aph-15r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-15r-k8dus149.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-15R', sale: '20%', qt: 'ecoco-e1717', price_origin: '520.000 đ', price: '416.000 đ', price_save: '104.000 đ' },
+        { img: 'aph-61r', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-61r-k8dv3uir.html', title: 'Máy Xay Sinh Tố<br>Apechome APH-61R', sale: '20%', qt: 'aph-st05s', price_origin: '725.000 đ', price: '580.000 đ', price_save: '145.000 đ' },
+        { img: 'aph-1500p', path: 'https://luzu.vn/may-xay-sinh-to-apechome-aph-1500p-k8dzzxvh.html', title: 'Máy xay sinh tố<br>Apechome APH-1500P', sale: '20%', qt: 'aph-444r', price_origin: '2.180.000 đ', price: '1.744.000 đ', price_save: '436.000 đ' },
+        { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng<br>LifeCook FC-LS18', sale: '25%', qt: 'aph-20r', price_origin: '2.480.000 đ', price: '1.860.000 đ', price_save: '620.000 đ' },
+        { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen<br>APH-10B', sale: '15%', qt: 'aph-15r', price_origin: '1.490.000 đ', price: '1.267.000 đ', price_save: '223.000 đ' }
 
     ];
 
@@ -69,17 +69,21 @@
                                 product_t_a.setAttribute("href", product_link[i].path + tracking_param);
                                 product_t_a.innerHTML = product_link[i].title;
                                 product_t.appendChild(product_t_a);
+
+var flip_price = '<div id="luzu_flip"><div><div><span class="product_labe">Tiết kiệm: </span><span class="luzu_price_sale">'+product_link[i].price_save+'</span></div></div><div><div><span class="product_labe">Giá thị trường: </span><span class="luzu_price_origin">'+product_link[i].price_origin+'</span></div></div><div><div><span class="product_labe">Giá sale: </span><span class="luzu_price_sale">'+product_link[i].price+'</span></div></div></div>';
+
                         var product_price = document.createElement('div');
                             product_price.classList.add('luzu_price');
+                            product_price.innerHTML = flip_price;
                             div.appendChild(product_price);
-                            var price_origin = document.createElement('span');
-                                price_origin.classList.add('luzu_price_origin');
-                                price_origin.innerHTML = product_link[i].price_origin;
-                                product_price.appendChild(price_origin);
-                            var price_sale = document.createElement('span');
-                                price_sale.classList.add('luzu_price_sale');
-                                price_sale.innerHTML = product_link[i].price;
-                                product_price.appendChild(price_sale);
+                            // var price_origin = document.createElement('span');
+                            //     price_origin.classList.add('luzu_price_origin');
+                            //     price_origin.innerHTML = product_link[i].price_origin;
+                            //     product_price.appendChild(price_origin);
+                            // var price_sale = document.createElement('span');
+                            //     price_sale.classList.add('luzu_price_sale');
+                            //     price_sale.innerHTML = product_link[i].price;
+                            //     product_price.appendChild(price_sale);
                     }
 
     				var product_a = document.createElement('a');
