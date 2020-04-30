@@ -408,24 +408,45 @@
     height: 23px;
 }
 #owl-luzu-300x600 .luzu_product_sale {
-font-size: 25px;
-    padding: 5px 10px;
     left: 0;
     bottom: unset;
     display: flex;
     line-height: 1;
     align-items: center;
 }
+#owl-luzu-300x600 .luzu_product_sale .pt {
+  font-size: 25px;
+  background: red;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  transform: rotate(20deg);
+}
+#owl-luzu-300x600 .luzu_product_sale .pt:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: red;
+  transform: rotate(135deg);
+}
 .luzu_product_sale {
-    font-size: 10px;
-    font-family: Arial;
-    font-weight: bold;
-    background-color: #e91e63c2;
-    padding: 2px 2px;
     position: absolute;
     bottom: 10px;
     left: 5px;
 }
+.luzu_product_sale .pt{
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #f44336de;
+    padding: 2px 2px;
+}
+
+
 .luzu_product_sale .gd {
       font-size: 10px;
     font-weight: 100;
@@ -459,9 +480,29 @@ font-size: 25px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 300;
-    padding: 40px 20px 30px;
+    padding: 25px 20px 5px;
     margin: 0;
     line-height: 20px;
+}
+.luzu_price {
+      line-height: 30px;
+    margin-bottom: 10px;
+}
+.luzu_price>span {
+  margin: 0 5px;
+}
+.luzu_price_origin {
+      font-size: 15px;
+    color: #ffffff75;
+    text-decoration: line-through;
+}
+.luzu_price_sale {
+      font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #F44336;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .owl-luzu .item .bn_product>h4 a {
   color: #fff;

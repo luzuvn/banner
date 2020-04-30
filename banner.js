@@ -68,6 +68,17 @@
                                 product_t_a.setAttribute("href", product_link[i].path + tracking_param);
                                 product_t_a.innerHTML = product_link[i].title;
                                 product_t.appendChild(product_t_a);
+                        var product_price = document.createElement('div');
+                            product_price.classList.add('luzu_price');
+                            div.appendChild(product_price);
+                            var price_origin = document.createElement('span');
+                                price_origin.classList.add('luzu_price_origin');
+                                price_origin.innerHTML = product_link[i].price_origin;
+                                product_price.appendChild(price_origin);
+                            var price_sale = document.createElement('span');
+                                price_sale.classList.add('luzu_price_sale');
+                                price_sale.innerHTML = product_link[i].price;
+                                product_price.appendChild(price_sale);
                     }
 
     				var product_a = document.createElement('a');
@@ -85,7 +96,7 @@
                         if (owlluzu.getAttribute('id') != 'owl-luzu-728x90') {
                             giam_den = '<span class="gd">GIẢM<br>ĐẾN</span>';
                         }
-	    				product_sale.innerHTML = giam_den + ' -' + product_link[i].sale;
+	    				product_sale.innerHTML = giam_den + '<span class="pt">-' + product_link[i].sale + '</span>';
 	    				item.appendChild(product_sale);
 
                     if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
