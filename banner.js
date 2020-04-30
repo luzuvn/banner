@@ -100,8 +100,7 @@
                         }
                         var phan_tram = document.createElement('span');
                             phan_tram.classList.add('pt');
-                            //phan_tram.setAttribute('data-after', product_link[i].sale);
-                            phan_tram.innerHTML = product_link[i].sale;
+                            phan_tram.setAttribute('data-after', product_link[i].sale);
                             product_sale.appendChild(phan_tram);
 
                         

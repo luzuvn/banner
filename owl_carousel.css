@@ -434,7 +434,7 @@
   transform: rotate(30deg);
 }
 #owl-luzu-300x600 .luzu_product_sale .pt:after {
-  content: "";
+  content: attr(data-after);
   position: absolute;
   top: 0;
   left: 0;
