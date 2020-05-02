@@ -67,6 +67,7 @@
                             div.appendChild(product_t);
                             var product_t_a = document.createElement('a');
                                 product_t_a.setAttribute("href", product_link[i].path + tracking_param);
+                                product_t_a.setAttribute('target', '_blank');
                                 product_t_a.innerHTML = product_link[i].title;
                                 product_t.appendChild(product_t_a);
 
@@ -80,6 +81,7 @@
 
     				var product_a = document.createElement('a');
     					product_a.setAttribute("href", product_link[i].path + tracking_param);
+                        product_a.setAttribute('target', '_blank');
     					product_a.setAttribute("title", product_link[i].title);
     					div.appendChild(product_a);
 
@@ -113,6 +115,7 @@
                             item.appendChild(qt);
                             var product_a1 = document.createElement('a');
                                 product_a1.setAttribute("href", product_link[i].path + tracking_param);
+                                product_a1.setAttribute('target', '_blank');
                                 product_a1.setAttribute("title", product_link[i].title);
                                 qt.appendChild(product_a1);
                                 var qt_img = document.createElement('img');
