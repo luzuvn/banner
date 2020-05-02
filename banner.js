@@ -133,10 +133,14 @@
                                 freeship.innerHTML = '<img src="https://luzuvn.github.io/banner/img/freeship.png">';
                                 qt.appendChild(freeship);
                             if (product_link[i].qt != '') {
-                                var qt_img = document.createElement('img');
-                                    qt_img.classList = 'luzu_qt_img hvr-buzz-out';
-                                    qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
-                                    qt.appendChild(qt_img);
+                                var product_a1 = document.createElement('a');
+                                    product_a1.setAttribute("href", product_link[i].path + tracking_param);
+                                    product_a1.setAttribute('target', '_blank');
+                                    qt.appendChild(product_a1);
+                                    var qt_img = document.createElement('img');
+                                        qt_img.classList = 'luzu_qt_img hvr-buzz-out';
+                                        qt_img.setAttribute("src", "https://luzuvn.github.io/banner/qua-tang/" + product_link[i].qt + ".png");
+                                        product_a1.appendChild(qt_img);
                             } else {
                                 qt.style.justifyContent = "flex-end";
                                 freeship.style.marginRight = '20px';
