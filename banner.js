@@ -27,7 +27,6 @@
     });
 
 	var product_link = 
-    {   p1:
         [
             { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí<br>Apechome MIK- 28EX', sale: '26%', qt: 'lifecook-fc-ls18', price_origin: '5.400.000 đ', price: '3.996.000 đ', price_save: '1.404.000 đ' },
             { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí<br>Masterkool MIK-09EX', sale: '29%', qt: 'aph-20r', price_origin: '2.790.000 đ', price: '1.981.000 đ', price_save: '809.000 đ' },
@@ -45,9 +44,7 @@
             { img: 'lifecook-fc-ls18', path: 'https://luzu.vn/noi-com-tach-duong-lifecook-fc-ls18-k7yg7l7w.html', title: 'Nồi cơm điện đa năng<br>LifeCook FC-LS18', sale: '25%', qt: 'aph-20r', price_origin: '2.480.000 đ', price: '1.860.000 đ', price_save: '620.000 đ' },
             { img: 'aph-10b', path: 'https://luzu.vn/noi-om-toi-den-aph-10b-k8fcipuc.html', title: 'Nồi om tỏi đen<br>APH-10B', sale: '15%', qt: 'aph-15r', price_origin: '1.490.000 đ', price: '1.267.000 đ', price_save: '223.000 đ' }
 
-        ],
-        p2: 'khau-trang'
-    };
+        ];
 
     var domain = window.location.host;
     var	domain_name = domain.split('.')[0];
