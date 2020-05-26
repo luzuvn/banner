@@ -63,7 +63,7 @@
 
     
 
-    function render_owl_carousel(owlluzu, callback, tracking_param) {
+    function render_owl_carousel(owlluzu, tracking_param, callback) {
 	    
     	for (var i = 0; i < product_link.length; i++) {
     
