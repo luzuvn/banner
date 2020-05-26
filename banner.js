@@ -6,19 +6,20 @@
     "use strict";
     //document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
 
-    var domain = window.location.host;
-    var domain_name = domain.split('.')[0];
-        if (!domain_name) {
-            domain_name = 'not_detect';
-        }
+    
     
 
     $(document).ready(function() {
+        var domain = window.location.host;
+        var domain_name = domain.split('.')[0];
+        if (!domain_name) {
+            domain_name = 'not_detect';
+        }
         var banner_728x90 = document.getElementById('luzu-banner-728x90');
         if (banner_728x90) {
             var owlluzu = document.getElementById('owl-luzu-728x90');
             var tracking_param = '?utm_source=' + domain_name + '&utm_medium=banner728x90&utm_campaign=thang456';
-            render_owl_carousel(owlluzu, function() {
+            render_owl_carousel(owlluzu, tracking_param, function() {
                 run_owl_carousel_728x90();
             });
         }
@@ -33,7 +34,7 @@
                 }
             
             var owlluzu = document.getElementById('owl-luzu-300x600');
-            render_owl_carousel(owlluzu, function() {
+            render_owl_carousel(owlluzu, tracking_param, function() {
                 run_owl_carousel_300x600();
             });
         }
@@ -62,7 +63,7 @@
 
     
 
-    function render_owl_carousel(owlluzu, callback) {
+    function render_owl_carousel(owlluzu, callback, tracking_param) {
 	    
     	for (var i = 0; i < product_link.length; i++) {
     
