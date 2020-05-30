@@ -10,8 +10,7 @@
     
 
     $(document).ready(function() {
-        var domain = window.location.host;
-        var domain_name = domain.split('.')[0];
+        var domain_name = window.location.host;
         if (!domain_name) {
             domain_name = 'not_detect';
         }
@@ -41,7 +40,7 @@
         
     });
 
-	var product_link = 
+    var product_link = 
         [
             { img: 'mik-28ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-30m2-35m2-apechome-mik-28ex-cs-150w-k7jxf1gk.html', title: 'Quạt điều hòa không khí<br>Apechome MIK- 28EX', sale: '28%', qt: 'lifecook-fc-ls18', price_origin: '5.900.000 đ', price: '4.270.000 đ', price_save: '1.630.000 đ' },
             { img: 'mik-09ex', path: 'https://luzu.vn/quat-dieu-hoa-may-lam-mat-khong-khi-phong-15m2-20m2-masterkool-mik-09ex-cs-110w-k7jwj4mt.html', title: 'Quạt điều hòa không khí<br>Masterkool MIK-09EX', sale: '22%', qt: 'aph-20r', price_origin: '2.700.000 đ', price: '2.117.000 đ', price_save: '583.000 đ' },
@@ -64,21 +63,21 @@
     
 
     function render_owl_carousel(owlluzu, tracking_param, callback) {
-	    
-    	for (var i = 0; i < product_link.length; i++) {
+        
+        for (var i = 0; i < product_link.length; i++) {
     
-    		var item = document.createElement('div');
-    			item.classList.add('item');
-    			var div = document.createElement('div');
-    				div.classList.add('bn_product');
-    				item.appendChild(div);
-    				
+            var item = document.createElement('div');
+                item.classList.add('item');
+                var div = document.createElement('div');
+                    div.classList.add('bn_product');
+                    item.appendChild(div);
+                    
                     if(owlluzu.getAttribute('id') == 'owl-luzu-300x600' ) {
                         var product_t = document.createElement('h4');
                             div.appendChild(product_t);
                             var product_t_a = document.createElement('a');
                                 product_t_a.setAttribute("href", product_link[i].path + tracking_param);
-                                product_t_a.setAttribute('target', '_blank');
+                                //product_t_a.setAttribute('target', '_blank');
                                 product_t_a.innerHTML = product_link[i].title;
                                 product_t.appendChild(product_t_a);
 
@@ -90,18 +89,18 @@
                             div.appendChild(product_price);
                     }
 
-    				var product_a = document.createElement('a');
-    					product_a.setAttribute("href", product_link[i].path + tracking_param);
+                    var product_a = document.createElement('a');
+                        product_a.setAttribute("href", product_link[i].path + tracking_param);
                         product_a.setAttribute('target', '_blank');
-    					product_a.setAttribute("title", product_link[i].title);
-    					div.appendChild(product_a);
+                        product_a.setAttribute("title", product_link[i].title);
+                        div.appendChild(product_a);
 
-	    				var product_img = document.createElement('img');
-	    					product_img.setAttribute("src", "https://luzuvn.github.io/banner/img/" + product_link[i].img + ".png");
-	    					product_a.appendChild(product_img);
-	    			
-	    			var product_sale = 	document.createElement('span');
-	    				product_sale.classList = 'luzu_product_sale hvr-pulse-shrink';
+                        var product_img = document.createElement('img');
+                            product_img.setAttribute("src", "https://luzuvn.github.io/banner/img/" + product_link[i].img + ".png");
+                            product_a.appendChild(product_img);
+                    
+                    var product_sale =  document.createElement('span');
+                        product_sale.classList = 'luzu_product_sale hvr-pulse-shrink';
 
                         var phan_tram = document.createElement('span');
                             phan_tram.classList.add('pt');
@@ -118,7 +117,7 @@
                             product_sale.appendChild(phan_tram);
 
                         
-	    				item.appendChild(product_sale);
+                        item.appendChild(product_sale);
 
                     if (product_link[i].qt != '' && owlluzu.getAttribute('id') == 'owl-luzu-728x90') {
                         var qt = document.createElement('div');
@@ -158,39 +157,39 @@
                             }
                     }
 
-    		owlluzu.appendChild(item);
+            owlluzu.appendChild(item);
 
             
-    	}
+        }
 
-    	callback();
+        callback();
     }
     function run_owl_carousel_728x90() {
         var owl = $("#owl-luzu-728x90");
 
-	    owl.owlCarousel({
-	        items: 10, //10 items above 1000px browser width
-	        // lazyLoad : true,
-	        itemsDesktop: [600, 6], //5 items between 600px and 451px
-	        itemsDesktopSmall: [450, 4], // betweem 450px and 301px
-	        itemsTablet: [300, 2], //2 items between 300 and 0
-	        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
-	    });
-	    owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+        owl.owlCarousel({
+            items: 10, //10 items above 1000px browser width
+            // lazyLoad : true,
+            itemsDesktop: [600, 6], //5 items between 600px and 451px
+            itemsDesktopSmall: [450, 4], // betweem 450px and 301px
+            itemsTablet: [300, 2], //2 items between 300 and 0
+            itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+        });
+        owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
 
-	    // Custom Navigation Events
-	    $(".next").click(function() {
-	        owl.trigger('owl.next');
-	    })
-	    $(".prev").click(function() {
-	        owl.trigger('owl.prev');
-	    })
-	    $(".play").click(function() {
-	        owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
-	    })
-	    $(".stop").click(function() {
-	        owl.trigger('owl.stop');
-	    })
+        // Custom Navigation Events
+        $(".next").click(function() {
+            owl.trigger('owl.next');
+        })
+        $(".prev").click(function() {
+            owl.trigger('owl.prev');
+        })
+        $(".play").click(function() {
+            owl.trigger('owl.play', 5000); //owl.play event accept autoPlay speed as second parameter
+        })
+        $(".stop").click(function() {
+            owl.trigger('owl.stop');
+        })
     }
     function run_owl_carousel_300x600() {
         var owl = $("#owl-luzu-300x600");
